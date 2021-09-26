@@ -12,7 +12,7 @@ while i < 25 :
     if "picoCTF{" in guess.text :
         print(i)
         print("flag found :")
-        print(guess.text)
+        print("Flag: " + guess.text.split("<code>")[1].split("</code>")[0])
         break
     else :
         print(i)
