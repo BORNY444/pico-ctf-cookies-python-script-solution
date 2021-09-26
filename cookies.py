@@ -1,5 +1,6 @@
-import requests
+#!/usr/bin/python
 
+import requests
 
 url ="http://mercury.picoctf.net:29649/check" # change my url with yours
 i = 0
